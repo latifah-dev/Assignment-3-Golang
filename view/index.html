@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <style>
+        body{
+            margin: 120px;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+    <title>Disaster!!</title>
+</head>
+<body>
+
+<h2>Disaster Auto Reload</h2>
+
+<table>
+    <tr>
+        <th>Disaster Type</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Water</td>
+        <td>{{.waterDesc}}</td>
+    </tr>
+    <tr>
+        <td>Wind</td>
+        <td>{{.windDesc}}</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
